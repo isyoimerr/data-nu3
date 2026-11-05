@@ -1,89 +1,41 @@
- 
-<div align="center">
+# Data NU3
 
-# DATA NU3
-### Proyecto académico de bases de datos
+Proyecto académico de bases de datos desarrollado en la Universidad Simón Bolívar.
 
-**Organización · Gestión de información · Desarrollo colaborativo**
+## Propósito
 
-Proyecto integrador universitario | Universidad Simón Bolívar
+Data NU3 propone una estructura relacional para organizar y consultar información asociada a una organización de impacto social. El repositorio se centra en el diseño del esquema, las relaciones entre entidades y las restricciones de integridad.
 
-</div>
+> El nombre Data NU3 identifica el proyecto académico; no corresponde al nombre de la organización ni contiene datos privados de sus beneficiarios.
 
----
-
-## 📌 Descripción del proyecto
-
-**Data NU3** es un proyecto académico orientado al diseño y desarrollo de una base de datos para organizar y gestionar información relacionada con la **Fundación NU3**, una organización que desarrolla iniciativas de impacto social.
-
-El proyecto busca construir una estructura de datos que facilite el almacenamiento, la consulta y la administración de información, aplicando los conocimientos adquiridos en el área de bases de datos.
-
-**Data NU3 es el nombre del proyecto tecnológico desarrollado por el equipo de estudiantes y no corresponde al nombre de la fundación.**
-
-## 🎯 Objetivo general
-
-Desarrollar una base de datos que contribuya a la organización, gestión y consulta de información relacionada con la Fundación NU3, mediante la aplicación de conocimientos y herramientas de bases de datos.
-
-## 📂 Estructura del repositorio
-
-La organización de archivos se irá definiendo conforme avance el desarrollo del proyecto.
+## Contenido del repositorio
 
 ```text
-data-nu3/
-│
+.
 ├── README.md
-├── docs/
-│   └── Documentación del proyecto
-│
-├── database/
-│   └── Scripts de base de datos
-│
-└── evidencias/
-    └── Evidencias del desarrollo
+├── script_creacion_tablas_actualizado_NM.sql
+└── Diccionario_de_datos_PK_FK_UNIQUE_sin_negrilla.docx
 ```
 
-*Estructura propuesta, pendiente de implementación.*
+## Tecnologías
 
-## 🛠️ Tecnologías y herramientas
+- SQL
+- Sistema gestor de bases de datos compatible con el script
+- Git y GitHub
 
-| Herramienta | Propósito |
-|---|---|
-| Git | Control de versiones |
-| GitHub | Repositorio y colaboración |
-| SQL | Lenguaje de consulta y manipulación de datos |
-| Sistema gestor de bases de datos | Por definir según el desarrollo |
+## Ejecutar el esquema
 
-## 👥 Equipo de desarrollo
+1. Instala un sistema gestor compatible con el script SQL.
+2. Crea una base de datos vacía.
+3. Ejecuta `script_creacion_tablas_actualizado_NM.sql`.
+4. Revisa las tablas, claves primarias, claves foráneas y restricciones creadas.
 
-Proyecto desarrollado por estudiantes de la **Universidad Simón Bolívar**.
+El script no incluye credenciales ni datos reales. Si agregas datos de prueba, utiliza únicamente información ficticia o anonimizada.
 
-| Integrante | Usuario de GitHub |
-|---|---|
-| Integrante 1 | @usuario1 |
-| Integrante 2 | @usuario2 |
-| Integrante 3 | @usuario3 |
-| Integrante 4 | @usuario4 |
+## Documentación
 
-## 🔄 Metodología de colaboración
+El diccionario de datos describe las entidades y restricciones principales del modelo. El archivo SQL es la fuente reproducible para crear el esquema.
 
-El equipo utilizará Git y GitHub para mantener un registro organizado de los avances del proyecto.
+## Estado
 
-Cada integrante podrá trabajar mediante ramas independientes y proponer cambios a través de *Pull Requests*, facilitando la revisión e integración del trabajo colaborativo.
-
-## 📈 Estado del proyecto
-
-**En desarrollo académico.**
-
-La documentación, los scripts y los avances se incorporarán progresivamente al repositorio.
-
----
-
-<div align="center">
-
-**DATA NU3**
-
-*Proyecto académico desarrollado con fines educativos.*
-
-Universidad Simón Bolívar · 2026
-
-</div>
+Proyecto académico en desarrollo. La estructura puede cambiar a medida que avance el diseño y la validación del modelo.
